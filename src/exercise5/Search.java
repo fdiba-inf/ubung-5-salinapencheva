@@ -21,9 +21,7 @@ public class Search {
 
         int numberIndex = -1;
       
-
-       System.out.println("Enter numbers: ");
-        for (int i = 0; i < numbers.length; i++) {
+          for (int i = 0; i < numbers.length; i++) {
             if(numbers[i] == number){
             numberIndex = i;
             break;
